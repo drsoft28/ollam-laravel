@@ -78,6 +78,7 @@ class OllamaClient
             'model' => $this->model,
             'messages' => $messages,
         ], $this->options);
+        $this->options($playload);
         try {
             return $this->ask('POST','/api/chat');
         } catch (RequestException $e) {
