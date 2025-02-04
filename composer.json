@@ -1,0 +1,31 @@
+{
+    "name": "drsoft28/ollama-laravel",
+    "description": "A Laravel package to interact with the Ollama API for building chat AI.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "php": "^8.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Drsoft28\\OllamaLaravel\\": "src/"
+        }
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Drsoft28\\OllamaLaravel\\OllamaServiceProvider"
+        ],
+        "aliases": {
+            "Ollama": "Drsoft28\\OllamaLaravel\\Facades\\OllamaFacade"
+        }
+    }
+},
+    "authors": [
+        {
+            "name": "drsoft28",
+            "email": "dif.rabie@gmail.com"
+        }
+    ]
+}
