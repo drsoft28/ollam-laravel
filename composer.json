@@ -1,6 +1,7 @@
 {
     "name": "drsoft28/ollama-laravel",
     "description": "A Laravel package to interact with the Ollama API for building chat AI.",
+    "version": "1.0.0",
     "type": "library",
     "require": {
         "guzzlehttp/guzzle": "^7.9",
